@@ -201,6 +201,20 @@ El propósito de este backend es proporcionar una API para:
 4.  **Ejecutar el servidor**:
 
     python manage.py runserver
+
+----------
+
+## **Pruebas Unitarias**
+
+1.  **Para jecutar todas la pruebas, puedes usar**:
+    
+    python manage.py test
+    
+2.  **Para ejecutar pruebas específicas, puedes usar:**:
+    
+    python manage.py test api.tests.test_models
+    python manage.py test api.tests.test_views
+    python manage.py test api.tests.test_serializers
     
 ----------
 
